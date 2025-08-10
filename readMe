@@ -1,0 +1,43 @@
+# Color Scheme Generator
+
+This project is a simple web app that interacts with [The Color API](https://www.thecolorapi.com/) to generate color schemes based on a user-selected color and scheme type. It was built as part of the Scrimba Fullstack Career Development Path.
+
+## Features
+
+- Pick a seed color using a color picker.
+- Select a color scheme type (Monochrome, Analogic, Complement, etc.).
+- Fetch and display a palette of 5 colors from The Color API.
+- Responsive and clean UI.
+
+## How It Works
+
+1. Choose a color using the color picker.
+2. Select a scheme type from the dropdown.
+3. Click "Get color scheme" to fetch and display a palette.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- [The Color API](https://www.thecolorapi.com/)
+
+## Live Demo
+
+Check out the live demo: [Color Scheme Generator](https://color-scheme-generator-kain.netlify.app/)
+
+## Getting Started
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Elikyals/color-scheme-generator.git
+    ```
+2. Open `index.html` in your browser.
+
+No build steps or dependencies required.
+
+## Project Structure
+
+- [`index.html`](index.html): Main HTML file.
+- [`index.css`](index.css): Stylesheet.
+- [`index.js`](index.js): JavaScript logic for interacting with the API and rendering colors.
