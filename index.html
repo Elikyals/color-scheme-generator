@@ -12,7 +12,7 @@
     <body>
         <header>
             <div class="container">
-                <input class="color-picker" id="color-picker" type="color">
+                <input class="color-picker" id="color-picker" type="color" value="#F55A5A">
                 <select name="color-scheme" id="color-scheme">
                     <option value="Monochrome">Monochrome</option>
                     <option value="Monochrome-dark">Monochrome-dark</option>
@@ -26,28 +26,7 @@
             </div>
         </header>
         <main>
-            <div class="color-palette">
-                <div class="color">
-                    <div class="color-1 color-space"></div>
-                    <p class="hex-values">#F55A5A</p>
-                </div>
-                <div class="color">
-                    <div class="color-2 color-space"></div>
-                    <p class="hex-values">#2B283A</p>
-                </div>
-                <div class="color">
-                    <div class="color-3 color-space"></div>
-                    <p class="hex-values">#FBF3AB</p>
-                </div>
-                <div class="color">
-                    <div class="color-4 color-space"></div>
-                    <p class="hex-values">#AAD1B6</p>
-                </div>
-                <div class="color">
-                    <div class="color-5 color-space"></div>
-                    <p class="hex-values">#A626D3</p>
-                </div>
-            </div>
+            <div class="color-palette" id="color-palette"></div>
         </main>
         <script src="index.js"></script>
     </body>
