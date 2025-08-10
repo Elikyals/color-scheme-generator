@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    gap: 1em;
+}
+select, .color-picker, button {
+    border: 1px solid #D1D5DB;
+    border-radius: 3px;
+    background-color: white;
+}
+select, button {
+    padding: 0.5em ;
+}
+select {
+    width: 50vw;
+}
+.color-picker {
+    block-size: 32px;
+}
+button {
+    font-size: 0.75rem;
+}
+/* .color-1 {
+    background-color: #F55A5A;
+}
+.color-2 {
+    background-color: #2B283A;
+}
+.color-3 {
+    background-color: #FBF3AB;
+}
+.color-4 {
+    background-color: #AAD1B6;
+}
+.color-5 {
+    background-color: #A626D3;
+} */
